@@ -1,413 +1,100 @@
-<svg viewBox="0 0 1400 900" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect width="1400" height="900" fill="#ffffff"/>
-  
-  <!-- Title -->
-  <text x="700" y="40" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
-    UniNavi Service Architecture
-  </text>
-  
-  <!-- Define arrow markers -->
-  <defs>
-    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-      <polygon points="0 0, 10 3, 0 6" fill="#333"/>
-    </marker>
-    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-      <polygon points="0 0, 10 3, 0 6" fill="#2196F3"/>
-    </marker>
-    <marker id="arrow-green" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-      <polygon points="0 0, 10 3, 0 6" fill="#4CAF50"/>
-    </marker>
-  </defs>
-  
-  <!-- Client Layer -->
-  <g id="client">
-    <rect x="50" y="80" width="240" height="340" rx="12" fill="#E3F2FD" stroke="#2196F3" stroke-width="3"/>
-    <text x="170" y="115" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#1565C0">
-      🔷 Client Layer
-    </text>
-    
-    <!-- NFC Tag -->
-    <rect x="80" y="145" width="180" height="85" rx="8" fill="#ffffff" stroke="#2196F3" stroke-width="2"/>
-    <text x="170" y="170" font-family="Arial" font-size="15" font-weight="bold" text-anchor="middle" fill="#1976D2">
-      NFC/QR Tag
-    </text>
-    <text x="170" y="190" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">
-      NTAG213
-    </text>
-    <text x="170" y="210" font-family="Arial" font-size="11" text-anchor="middle" fill="#888">
-      Building Entrance
-    </text>
-    
-    <!-- Mobile Device -->
-    <rect x="80" y="255" width="180" height="145" rx="8" fill="#ffffff" stroke="#2196F3" stroke-width="2"/>
-    <text x="170" y="280" font-family="Arial" font-size="15" font-weight="bold" text-anchor="middle" fill="#1976D2">
-      Mobile/Desktop
-    </text>
-    <text x="170" y="302" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">
-      Web Browser
-    </text>
-    <text x="170" y="325" font-family="Arial" font-size="11" text-anchor="middle" fill="#888">
-      • PWA Support
-    </text>
-    <text x="170" y="345" font-family="Arial" font-size="11" text-anchor="middle" fill="#888">
-      • Responsive Design
-    </text>
-    <text x="170" y="365" font-family="Arial" font-size="11" text-anchor="middle" fill="#888">
-      • Push Notification
-    </text>
-    <text x="170" y="385" font-family="Arial" font-size="11" text-anchor="middle" fill="#888">
-      • Offline Support
-    </text>
-  </g>
-  
-  <!-- Frontend Layer -->
-  <g id="frontend">
-    <rect x="360" y="80" width="280" height="340" rx="12" fill="#FFF3E0" stroke="#FF9800" stroke-width="3"/>
-    <text x="500" y="115" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#E65100">
-      🔶 Frontend Layer
-    </text>
-    
-    <!-- React -->
-    <rect x="390" y="145" width="220" height="70" rx="8" fill="#61DAFB" stroke="#00D8FF" stroke-width="2"/>
-    <text x="500" y="175" font-family="Arial" font-size="15" font-weight="bold" text-anchor="middle" fill="#000">
-      React.js
-    </text>
-    <text x="500" y="195" font-family="Arial" font-size="11" text-anchor="middle" fill="#000">
-      Component-based UI
-    </text>
-    
-    <!-- UI Components -->
-    <rect x="390" y="235" width="220" height="85" rx="8" fill="#ffffff" stroke="#FF9800" stroke-width="2"/>
-    <text x="500" y="260" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#E65100">
-      UI/UX Components
-    </text>
-    <text x="500" y="280" font-family="Arial" font-size="11" text-anchor="middle" fill="#666">
-      HTML5 / CSS3
-    </text>
-    <text x="500" y="298" font-family="Arial" font-size="11" text-anchor="middle" fill="#666">
-      JavaScript (ES6+)
-    </text>
-    
-    <!-- Axios -->
-    <rect x="390" y="340" width="220" height="60" rx="8" fill="#ffffff" stroke="#FF9800" stroke-width="2"/>
-    <text x="500" y="370" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#E65100">
-      Axios
-    </text>
-    <text x="500" y="388" font-family="Arial" font-size="11" text-anchor="middle" fill="#666">
-      HTTP Client
-    </text>
-  </g>
-  
-  <!-- Backend Layer -->
-  <g id="backend">
-    <rect x="710" y="80" width="300" height="340" rx="12" fill="#E8F5E9" stroke="#4CAF50" stroke-width="3"/>
-    <text x="860" y="115" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#1B5E20">
-      🔷 Backend Layer
-    </text>
-    
-    <!-- Spring Boot -->
-    <rect x="740" y="145" width="240" height="70" rx="8" fill="#6DB33F" stroke="#5CA632" stroke-width="2"/>
-    <text x="860" y="175" font-family="Arial" font-size="15" font-weight="bold" text-anchor="middle" fill="#fff">
-      Spring Boot
-    </text>
-    <text x="860" y="195" font-family="Arial" font-size="11" text-anchor="middle" fill="#fff">
-      Java Framework
-    </text>
-    
-    <!-- Business Logic -->
-    <rect x="740" y="235" width="240" height="100" rx="8" fill="#ffffff" stroke="#4CAF50" stroke-width="2"/>
-    <text x="860" y="260" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#1B5E20">
-      Business Logic
-    </text>
-    <text x="860" y="280" font-family="Arial" font-size="11" text-anchor="middle" fill="#666">
-      • Real-time Status Processing
-    </text>
-    <text x="860" y="298" font-family="Arial" font-size="11" text-anchor="middle" fill="#666">
-      • Data Transformation
-    </text>
-    <text x="860" y="316" font-family="Arial" font-size="11" text-anchor="middle" fill="#666">
-      • Spring Data JPA (ORM)
-    </text>
-    
-    <!-- Security & API -->
-    <rect x="740" y="355" width="115" height="45" rx="8" fill="#ffffff" stroke="#4CAF50" stroke-width="2"/>
-    <text x="797" y="380" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#1B5E20">
-      Spring Security
-    </text>
-    
-    <rect x="865" y="355" width="115" height="45" rx="8" fill="#ffffff" stroke="#4CAF50" stroke-width="2"/>
-    <text x="922" y="372" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#1B5E20">
-      RESTful API
-    </text>
-    <text x="922" y="388" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">
-      30+ endpoints
-    </text>
-  </g>
-  
-  <!-- Database Layer -->
-  <g id="database">
-    <rect x="1080" y="80" width="270" height="340" rx="12" fill="#E1F5FE" stroke="#03A9F4" stroke-width="3"/>
-    <text x="1215" y="115" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#01579B">
-      🔷 Database Layer
-    </text>
-    
-    <!-- MySQL -->
-    <rect x="1110" y="145" width="210" height="70" rx="8" fill="#00758F" stroke="#00546B" stroke-width="2"/>
-    <text x="1215" y="175" font-family="Arial" font-size="15" font-weight="bold" text-anchor="middle" fill="#fff">
-      MySQL 8.0
-    </text>
-    <text x="1215" y="195" font-family="Arial" font-size="11" text-anchor="middle" fill="#fff">
-      Relational Database
-    </text>
-    
-    <!-- Data Schema -->
-    <rect x="1110" y="235" width="210" height="165" rx="8" fill="#ffffff" stroke="#03A9F4" stroke-width="2"/>
-    <text x="1215" y="260" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#01579B">
-      Data Schema
-    </text>
-    <text x="1215" y="285" font-family="Arial" font-size="11" text-anchor="middle" fill="#666">
-      • Building Information
-    </text>
-    <text x="1215" y="305" font-family="Arial" font-size="11" text-anchor="middle" fill="#666">
-      • Classroom Details
-    </text>
-    <text x="1215" y="325" font-family="Arial" font-size="11" text-anchor="middle" fill="#666">
-      • Course Timetable
-    </text>
-    <text x="1215" y="345" font-family="Arial" font-size="11" text-anchor="middle" fill="#666">
-      • Professor Information
-    </text>
-    <text x="1215" y="365" font-family="Arial" font-size="11" text-anchor="middle" fill="#666">
-      • User Data & Preferences
-    </text>
-    <text x="1215" y="385" font-family="Arial" font-size="11" text-anchor="middle" fill="#666">
-      • Usage Statistics
-    </text>
-  </g>
-  
-  <!-- Data Flow Arrows -->
-  <!-- Client to Frontend -->
-  <path d="M 290 250 L 360 250" stroke="#2196F3" stroke-width="3" fill="none" marker-end="url(#arrow-blue)"/>
-  <text x="325" y="240" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#1565C0">
-    HTTPS
-  </text>
-  <text x="325" y="255" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">
-    Request
-  </text>
-  
-  <!-- Frontend to Backend -->
-  <path d="M 640 250 L 710 250" stroke="#FF9800" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
-  <text x="675" y="240" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#E65100">
-    API Call
-  </text>
-  <text x="675" y="255" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">
-    JSON
-  </text>
-  
-  <!-- Backend to Database -->
-  <path d="M 1010 250 L 1080 250" stroke="#4CAF50" stroke-width="3" fill="none" marker-end="url(#arrow-green)"/>
-  <text x="1045" y="240" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#1B5E20">
-    JPA/SQL
-  </text>
-  <text x="1045" y="255" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">
-    Query
-  </text>
-  
-  <!-- Return arrows -->
-  <path d="M 1080 280 L 1010 280" stroke="#4CAF50" stroke-width="2" fill="none" marker-end="url(#arrow-green)" stroke-dasharray="5,5"/>
-  <text x="1045" y="295" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">
-    Data
-  </text>
-  
-  <path d="M 710 280 L 640 280" stroke="#FF9800" stroke-width="2" fill="none" marker-end="url(#arrow)" stroke-dasharray="5,5"/>
-  <text x="675" y="295" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">
-    Response
-  </text>
-  
-  <!-- NFC to Mobile arrow -->
-  <path d="M 170 230 L 170 255" stroke="#2196F3" stroke-width="2" fill="none" marker-end="url(#arrow-blue)"/>
-  <text x="195" y="245" font-family="Arial" font-size="10" text-anchor="start" fill="#1565C0">
-    Tag URL
-  </text>
-  
-  <!-- Infrastructure Layer -->
-  <rect x="50" y="470" width="1300" height="200" rx="12" fill="#FCE4EC" stroke="#E91E63" stroke-width="3"/>
-  <text x="700" y="505" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#880E4F">
-    🔶 Infrastructure (AWS Cloud)
-  </text>
-  
-  <!-- NGINX -->
-  <rect x="100" y="535" width="180" height="110" rx="8" fill="#009639" stroke="#007A2D" stroke-width="2"/>
-  <text x="190" y="565" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">
-    NGINX
-  </text>
-  <text x="190" y="588" font-family="Arial" font-size="11" text-anchor="middle" fill="#fff">
-    • Reverse Proxy
-  </text>
-  <text x="190" y="606" font-family="Arial" font-size="11" text-anchor="middle" fill="#fff">
-    • SSL/HTTPS
-  </text>
-  <text x="190" y="624" font-family="Arial" font-size="11" text-anchor="middle" fill="#fff">
-    • Load Balancing
-  </text>
-  
-  <!-- EC2 -->
-  <rect x="320" y="535" width="180" height="110" rx="8" fill="#FF9900" stroke="#CC7700" stroke-width="2"/>
-  <text x="410" y="565" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">
-    AWS EC2
-  </text>
-  <text x="410" y="588" font-family="Arial" font-size="11" text-anchor="middle" fill="#fff">
-    • Backend Server
-  </text>
-  <text x="410" y="606" font-family="Arial" font-size="11" text-anchor="middle" fill="#fff">
-    • Application Host
-  </text>
-  <text x="410" y="624" font-family="Arial" font-size="11" text-anchor="middle" fill="#fff">
-    • Auto Scaling
-  </text>
-  
-  <!-- RDS -->
-  <rect x="540" y="535" width="180" height="110" rx="8" fill="#3B48CC" stroke="#2C3699" stroke-width="2"/>
-  <text x="630" y="565" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">
-    AWS RDS
-  </text>
-  <text x="630" y="588" font-family="Arial" font-size="11" text-anchor="middle" fill="#fff">
-    • MySQL Database
-  </text>
-  <text x="630" y="606" font-family="Arial" font-size="11" text-anchor="middle" fill="#fff">
-    • Managed Service
-  </text>
-  <text x="630" y="624" font-family="Arial" font-size="11" text-anchor="middle" fill="#fff">
-    • Auto Backup
-  </text>
-  
-  <!-- Monitoring -->
-  <rect x="760" y="535" width="180" height="110" rx="8" fill="#ffffff" stroke="#E91E63" stroke-width="2"/>
-  <text x="850" y="565" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#880E4F">
-    Monitoring
-  </text>
-  <text x="850" y="588" font-family="Arial" font-size="11" text-anchor="middle" fill="#666">
-    • Usage Statistics
-  </text>
-  <text x="850" y="606" font-family="Arial" font-size="11" text-anchor="middle" fill="#666">
-    • Analytics Dashboard
-  </text>
-  <text x="850" y="624" font-family="Arial" font-size="11" text-anchor="middle" fill="#666">
-    • Performance Metrics
-  </text>
-  
-  <!-- Git -->
-  <rect x="980" y="535" width="180" height="110" rx="8" fill="#ffffff" stroke="#E91E63" stroke-width="2"/>
-  <text x="1070" y="565" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#880E4F">
-    Git / Git-flow
-  </text>
-  <text x="1070" y="588" font-family="Arial" font-size="11" text-anchor="middle" fill="#666">
-    • Version Control
-  </text>
-  <text x="1070" y="606" font-family="Arial" font-size="11" text-anchor="middle" fill="#666">
-    • Code Review
-  </text>
-  <text x="1070" y="624" font-family="Arial" font-size="11" text-anchor="middle" fill="#666">
-    • CI/CD Pipeline
-  </text>
-  
-  <!-- Figma -->
-  <rect x="1200" y="535" width="130" height="110" rx="8" fill="#ffffff" stroke="#E91E63" stroke-width="2"/>
-  <text x="1265" y="565" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#880E4F">
-    Figma
-  </text>
-  <text x="1265" y="588" font-family="Arial" font-size="11" text-anchor="middle" fill="#666">
-    • UI/UX Design
-  </text>
-  <text x="1265" y="606" font-family="Arial" font-size="11" text-anchor="middle" fill="#666">
-    • Prototyping
-  </text>
-  <text x="1265" y="624" font-family="Arial" font-size="11" text-anchor="middle" fill="#666">
-    • Collaboration
-  </text>
-  
-  <!-- Core Features -->
-  <rect x="50" y="710" width="1300" height="160" rx="12" fill="#F5F5F5" stroke="#757575" stroke-width="3"/>
-  <text x="700" y="745" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#424242">
-    ⭐ Core Features
-  </text>
-  
-  <!-- Feature boxes -->
-  <rect x="100" y="770" width="160" height="75" rx="6" fill="#fff" stroke="#9E9E9E" stroke-width="1.5"/>
-  <text x="180" y="795" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#333">
-    Real-time Status
-  </text>
-  <text x="180" y="815" font-family="Arial" font-size="18" text-anchor="middle">
-    🟢 🟡 🔴
-  </text>
-  <text x="180" y="832" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">
-    Classroom Availability
-  </text>
-  
-  <rect x="280" y="770" width="160" height="75" rx="6" fill="#fff" stroke="#9E9E9E" stroke-width="1.5"/>
-  <text x="360" y="795" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#333">
-    Professor Office
-  </text>
-  <text x="360" y="815" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">
-    Real-time Status
-  </text>
-  <text x="360" y="832" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">
-    Office Hours Info
-  </text>
-  
-  <rect x="460" y="770" width="160" height="75" rx="6" fill="#fff" stroke="#9E9E9E" stroke-width="1.5"/>
-  <text x="540" y="795" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#333">
-    Personal Timetable
-  </text>
-  <text x="540" y="815" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">
-    Next Class Alert
-  </text>
-  <text x="540" y="832" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">
-    Schedule Integration
-  </text>
-  
-  <rect x="640" y="770" width="160" height="75" rx="6" fill="#fff" stroke="#9E9E9E" stroke-width="1.5"/>
-  <text x="720" y="795" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#333">
-    Search & Navigation
-  </text>
-  <text x="720" y="815" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">
-    Building/Room Search
-  </text>
-  <text x="720" y="832" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">
-    Campus Map
-  </text>
-  
-  <rect x="820" y="770" width="160" height="75" rx="6" fill="#fff" stroke="#9E9E9E" stroke-width="1.5"/>
-  <text x="900" y="795" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#333">
-    Facility Report
-  </text>
-  <text x="900" y="815" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">
-    Issue Reporting
-  </text>
-  <text x="900" y="832" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">
-    Community Feedback
-  </text>
-  
-  <rect x="1000" y="770" width="160" height="75" rx="6" fill="#fff" stroke="#9E9E9E" stroke-width="1.5"/>
-  <text x="1080" y="795" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#333">
-    Admin Dashboard
-  </text>
-  <text x="1080" y="815" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">
-    Data Management
-  </text>
-  <text x="1080" y="832" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">
-    Excel Import/Export
-  </text>
-  
-  <rect x="1180" y="770" width="160" height="75" rx="6" fill="#fff" stroke="#9E9E9E" stroke-width="1.5"/>
-  <text x="1260" y="795" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#333">
-    Analytics
-  </text>
-  <text x="1260" y="815" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">
-    Usage Statistics
-  </text>
-  <text x="1260" y="832" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">
-    Data Visualization
-  </text>
-</svg>
+# 🏫 UniNavi - 스마트 캠퍼스 NFC 기반 실시간 건물 안내 시스템
+
+> NFC/QR 태그를 활용한 실시간 캠퍼스 정보 제공 서비스
+
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)]()
+[![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)]()
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)]()
+[![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)]()
+
+## 📌 프로젝트 소개
+
+UniNavi는 캠퍼스 내 건물 입구에 부착된 **NFC(QR) 태그**를 스마트폰으로 태깅하면 해당 건물의 모든 정보를 실시간으로 제공하는 모바일 웹 서비스입니다.
+
+강의실의 위치 및 실시간 사용 현황부터 교수 연구실 정보까지 파편화된 정보들을 통합적으로 제공하여 **학생, 교직원, 방문객** 모두의 캠퍼스 생활 편의성을 증대시킵니다.
+
+### 🎯 프로젝트 배경 및 필요성
+
+- **신입생 & 방문객**: 넓고 복잡한 캠퍼스에서 원하는 건물이나 강의실을 찾는 데 어려움
+- **재학생**: 공강 시간이나 팀 프로젝트를 위해 빈 강의실을 찾기 위해 각 건물을 직접 돌아다녀야 하는 불편함
+- **기존 안내판의 한계**: 실시간 정보 반영 불가능, 강의 스케줄 변경, 교수 재실 여부 등을 전혀 반영하지 못함
+
+→ **NFC 기술을 활용한 즉각적이고 정확한 실시간 정보 제공**으로 캠퍼스 내 공간 탐색 시간 단축 및 공간 활용 효율성 극대화
+
+## ✨ 주요 특징
+
+### 🔴🟡🟢 실시간 정보 제공
+현재 시간을 기준으로 학교 학사 데이터와 연동하여 강의실 상태를 직관적인 색상으로 시각화
+- 🔴 **사용 중** - 현재 강의 진행 중
+- 🟡 **수업 예정** - 곧 수업 시작
+- 🟢 **사용 가능** - 빈 강의실
+
+### 👤 개인화 서비스
+- 개인 시간표 연동으로 **다음 수업 강의실** 우선 표시
+- 자주 찾는 건물 **즐겨찾기** 기능
+- 맞춤형 사용자 경험 제공
+
+### 🔌 확장성 및 접근성
+- NFC 태그 + QR 코드 병기로 모든 디바이스 지원
+- 모듈식 아키텍처로 도서관 좌석, 식당 혼잡도 등 타 시스템 연동 용이
+- PWA 기술 적용으로 앱처럼 설치 가능
+
+### 💬 양방향 소통
+- 시설 고장 등을 제보하는 커뮤니티 기능
+- 관리자의 신속한 문제 파악 및 처리 현황 공유
+
+## 🚀 주요 기능
+
+### 👨‍🎓 사용자 기능
+- **NFC/QR 기반 정보 조회** - 스마트폰 태깅만으로 건물 정보 페이지 즉시 이동
+- **실시간 강의실 상태 확인** - 층별 강의실 목록을 색상으로 시각화
+- **상세 정보 팝업** - 강의실 클릭 시 수업명, 담당 교수, 시간 등 표시
+- **교수 연구실 안내** - 교수 목록, 위치, 재실 상태 확인
+- **통합 검색** - 건물, 강의실 번호, 교수 이름으로 빠른 검색
+- **개인화** - 내 시간표 연동 및 즐겨찾기 기능
+- **길찾기 & 시설 제보** - 캠퍼스맵 연동 및 실시간 제보 기능
+
+### 👨‍💼 관리자/교수 기능
+- **데이터 관리 대시보드** - 건물, 강의실, 교수 정보 관리 (엑셀 임포트 지원)
+- **NFC 태그 관리** - 태그와 건물 ID 매핑 인터페이스
+- **교수용 상태 업데이트** - 간편한 재실 상태 실시간 업데이트
+- **사용 통계 분석** - 건물별 태그 빈도, 시간대별 조회 수 등 데이터 시각화
+
+## 🛠 기술 스택
+
+### Frontend
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+
+- React.js - 동적 UI/UX 구현 및 컴포넌트 기반 개발
+- Axios - 백엔드와의 비동기 통신
+- PWA - 앱처럼 설치 가능, 푸시 알림 지원
+- Figma - UI/UX 프로토타입 설계 및 디자인 일관성 확보
+
+### Backend
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=spring-security&logoColor=white)
+
+- Spring Boot - 안정적이고 확장성 높은 백엔드 시스템
+- Spring Data JPA - 객체지향적 데이터베이스 접근 (ORM)
+- Spring Security - 사용자 인증/인가, 보안 강화
+
+### Database
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+- MySQL - 강의 시간표, 건물 정보 등 정형화된 데이터 관리
+
+### Infrastructure
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![NGINX](https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white)
+
+- AWS EC2 - 백엔드 서버 구축
+- AWS RDS - 데이터베이스 호스팅
+- NGINX - 리버스 프록시 및 SSL 인증서 적용
+- NFC Tag (NTAG213) - 건물 입구 태그
+
+## 📊 시스템 아키텍처
