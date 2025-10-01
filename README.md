@@ -87,40 +87,19 @@ C. **기존 안내판의 한계**: 실시간 정보 반영 불가능, 강의 스
 
 ## 3. 기술 스택
 
-### Frontend
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+| Category | Stack |
+| :--- | :--- |
+| **Backend** | ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=spring-security&logoColor=white)|
+| **Frontend** |![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-
-- React.js - 동적 UI/UX 구현 및 컴포넌트 기반 개발
-- Axios - 백엔드와의 비동기 통신
-- PWA - 앱처럼 설치 가능, 푸시 알림 지원
-- Figma - UI/UX 프로토타입 설계 및 디자인 일관성 확보
-
-### Backend
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=spring-security&logoColor=white)
-
-- Spring Boot - 안정적이고 확장성 높은 백엔드 시스템
-- Spring Data JPA - 객체지향적 데이터베이스 접근 (ORM)
-- Spring Security - 사용자 인증/인가, 보안 강화
-
-### Database
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-- MySQL - 강의 시간표, 건물 정보 등 정형화된 데이터 관리
-
-### Infrastructure
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![NGINX](https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white)
-
-- AWS EC2 - 백엔드 서버 구축
-- AWS RDS - 데이터베이스 호스팅
-- NGINX - 리버스 프록시 및 SSL 인증서 적용
-- NFC Tag (NTAG213) - 건물 입구 태그
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)|
+| **Database** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)|
+| **Infrastructure** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![NGINX](https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white) |
 
 ---
 
