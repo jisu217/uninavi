@@ -13,7 +13,7 @@
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
   <img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white" />
 </div>
-
+>
 > NFC/QR 태그를 활용한 실시간 캠퍼스 정보 제공 서비스
 
 ## 📌 프로젝트 소개
