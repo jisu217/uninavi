@@ -1,4 +1,4 @@
-# 🏫 UniNavi - 스마트 캠퍼스 NFC 기반 실시간 건물 안내 시스템
+# UniNavi_스마트 캠퍼스 NFC 기반 실시간 건물 안내 시스템
 
 <div align="center">
   <strong>NFC/QR 태그 기반 실시간 캠퍼스 건물 정보 안내 모바일 웹 서비스</strong>
