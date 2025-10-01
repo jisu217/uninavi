@@ -14,6 +14,7 @@
   <img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white" />
 </div>
 
+<br>
 
 > 제 20회 총장배 AI 융합 경진대회
 
