@@ -18,26 +18,6 @@
 
 > 제 20회 총장배 AI 융합 경진대회
 
-markdown# UniNavi - NFC/QR 태그 기반 실시간 캠퍼스 건물 정보 안내 모바일 웹 서비스
-
-<div align="center">
-  <strong>NFC/QR 태그 기반 실시간 캠퍼스 건물 정보 안내 모바일 웹 서비스</strong>
-</div>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
-  <img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white" />
-</div>
-
-<br>
-
-> 제 20회 총장배 AI 융합 경진대회
-
 ---
 
 ## 📑 목차
