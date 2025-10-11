@@ -193,7 +193,7 @@ C. **기존 안내판의 한계**: 실시간 정보 반영 불가능, 강의 스
 
 | 이름 | 역할 | 담당 업무 | GitHub |
 |------|------|-----------|--------|
-| 팀원1 | Frontend Developer | React 개발, UI/UX 디자인 | [@github-id](https://github.com/username) |
+| 팀원1 | Frontend Developer | React 개발, UI/UX 디자인 ||
 | 팀원2 | Backend Developer | Spring Boot API 개발 | [@github-id](https://github.com/username) |
 | 팀원3 | Full Stack Developer | 데이터베이스 설계, 인프라 구축 | [@github-id](https://github.com/username) |
 | 팀원4 | Project Manager | 기획, 문서화, NFC 태그 관리 | [@github-id](https://github.com/
