@@ -1,0 +1,362 @@
+/* ========== 공통 레이아웃 ========== */
+:root {
+    --vh: 100%;
+}
+
+
+
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* 화면 전체 꽉 채우기 */
+    max-height: 900px;
+    /* 너무 길어지지 않게 제한 */
+    overflow-y: auto;
+    /* 필요하면만 스크롤 */
+}
+
+/* 헤더 */
+.home__header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+
+    display: flex;
+    justify-content: flex-start;
+    /* ✅ 왼쪽 기준 정렬 */
+    align-items: flex-end;
+    gap: 12px;
+
+    padding: 0 16px 20px;
+    background: #4A6E45;
+    color: #fff;
+
+    height: 120px;
+}
+
+.home__logo {
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", Arial;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.05;
+    flex-shrink: 0;
+    /* ✅ 로고 줄어들지 않게 */
+}
+
+/* 🔥 핵심 부분 */
+.home__search {
+    margin-left: auto;
+    /* ✅ 오른쪽 끝으로 밀기 */
+    display: flex;
+    align-items: center;
+    width: 140px;
+    /* ✅ 원하는 만큼 줄이기 (120→140→100 마음대로 조절 가능) */
+    gap: 6px;
+    background: #fff;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+
+.home__search input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    width: 100%;
+}
+
+.home__searchBtn {
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* ========== 지도 영역 ========== */
+.map {
+    position: relative;
+    width: 100%;
+    /* 아이폰 화면 비슷한 비율로 높이 설정 */
+    height: 920px;
+    overflow: hidden;
+}
+
+/* 회색 바닥 배경 */
+.map__bg {
+    position: absolute;
+    inset: 0;
+    background: #cbd6dd;
+}
+
+/* 중앙 원형(광장 느낌) */
+.map__circle {
+    position: absolute;
+    top: 130px;
+    left: 70%;
+    width: 80px;
+    height: 80px;
+    margin-left: -70px;
+    background: #dfe3e8;
+    border-radius: 50%;
+    opacity: 0.85;
+}
+
+.jacob-ladder {
+    position: absolute;
+    width: 60px;
+    /* 크기 조절 가능 */
+    height: 60px;
+    background: #d9dee2;
+    /* 광장 원형과 동일한 색상 */
+    border-radius: 6px;
+    /* 살짝 둥근 직사각형 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 12px;
+    color: #767c84;
+    /* 다른 건물 글씨랑 비슷하게 */
+    left: 340px;
+    /* 위치는 예시 (밀알관 밑으로 조정) */
+    top: 280px;
+}
+
+
+/* 좌하단 초록 블록들 (잔디/광장) */
+.map__field {
+    position: absolute;
+    background: #a8c9b1;
+    border-radius: 12px;
+    opacity: 0.9;
+}
+
+.map__field--small {
+    top: 450px;
+    left: 60px;
+    width: 60px;
+    height: 90px;
+
+}
+
+.map__field--large {
+    top: 430px;
+    left: 120px;
+    width: 120px;
+    height: 75px;
+    transform: rotate(12deg);
+}
+
+/* 우하단 곡선 보도 */
+.map__curb {
+    position: absolute;
+    bottom: 45px;
+    left: 120px;
+    width: 150px;
+    height: 120px;
+    background: #dfe3e8;
+    border-bottom-left-radius: 100px 120px;
+    border-top-left-radius: 50px 40px;
+    transform: rotate(10deg);
+    opacity: 0.8;
+}
+
+/* 우측 얇은 기둥(장식) */
+.map__thin-rail {
+    position: absolute;
+    top: 170px;
+    right: 16px;
+    width: 10px;
+    height: 150px;
+    background: #e9eef3;
+    border-radius: 8px;
+    opacity: 0.9;
+    margin-top: -90px;
+}
+
+/* 주차 P */
+.map__parking {
+    position: absolute;
+    top: 160px;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #b7c5d9;
+    color: #fff;
+    font-weight: 700;
+    display: grid;
+    place-items: center;
+}
+
+/* 문 텍스트 */
+.map__gate {
+    position: absolute;
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    margin-top: -100px;
+}
+
+.map__gate-box {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 60px;
+    /* 크기 */
+    height: 30px;
+    border-radius: 6px;
+
+    background: #8B9FBA;
+    /* 문 색상 */
+    color: #fff;
+    font-weight: 450;
+
+    font-size: 14px;
+    text-align: center;
+}
+
+.map__gate--front {
+    top: 0px;
+    left: 95px;
+    border-radius: 0 0 15px 15px;
+}
+
+.map__gate--back {
+    bottom: 200px;
+    left: 0px;
+    border-radius: 0 15px 15px 0px;
+}
+
+/* ========== 건물 공통 스타일 ========== */
+.bld {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eef3f8;
+    color: #7b8494;
+    font-weight: 700;
+    border-radius: 14px;
+    text-decoration: none;
+    box-shadow: 0 1.5px 0 rgba(0, 0, 0, 0.05), inset 0 0 0 1px #d7dde5;
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+    user-select: none;
+}
+
+.bld:hover {
+    background: #8B9FBA;
+    color: #fff;
+}
+
+
+
+/* ========== 개별 건물 위치/크기/각도 ========== */
+/* 복음관 (상단 중앙 가로로 긴 블록) */
+.bld--bogeum {
+    top: 100px;
+    left: 180px !important;
+    width: 200px !important;
+    height: 60px !important;
+    margin-top: -130px;
+}
+
+/* 밀알관 (우측 세로로 긴 블록 + 우상단 라운드) */
+.bld--milal {
+    top: 300px;
+    right: 22px;
+    width: 70px;
+    height: 200px !important;
+    border-top-right-radius: 26px;
+    border-bottom-right-radius: 18px;
+    margin-top: -110px;
+}
+
+/* 갈멜관 (좌측 상단 대각선) */
+.bld--galmel {
+    top: 160px !important;
+    left: 15px !important;
+    width: 170px !important;
+    height: 60px;
+    transform: rotate(-75deg);
+
+
+}
+
+
+/* 모리아관 (화면 중단 대각선, 길쭉) */
+.bld--Moria {
+    top: 330px !important;
+    left: 80px !important;
+    width: 230px !important;
+    height: 68px !important;
+    transform: rotate(12deg);
+}
+
+/* 일립관A (우하단 대각선, 위쪽) */
+.bld--illipA {
+    top: 460px !important;
+    right: 46px;
+    width: 92px;
+    height: 150px;
+    transform: rotate(28deg);
+}
+
+/* 일립관B (우하단 대각선, 아래쪽) */
+.bld--illipB {
+    top: 594px !important;
+    right: 131px !important;
+    width: 92px;
+    height: 155px;
+    transform: rotate(28deg);
+}
+
+/* 반응형(넓은 화면에서 살짝 키우기) */
+@media (min-width: 430px) {
+    .map {
+        height: 1020px;
+    }
+
+    .bld--bogeum {
+        top: 180px;
+        left: 95px;
+        width: 260px;
+        height: 78px;
+    }
+
+    .bld--milal {
+        top: 160px;
+        right: 30px;
+        height: 330px;
+    }
+
+    .bld--galmel {
+        top: 275px;
+        left: 36px;
+        width: 140px;
+    }
+
+    .home .bld--moria {
+        top: 460px;
+        left: 80px;
+        width: 280px;
+    }
+
+    .bld--illipA {
+        top: 560px;
+        right: 58px;
+    }
+
+    .bld--illipB {
+        top: 690px;
+        right: 135px;
+    }
+}
