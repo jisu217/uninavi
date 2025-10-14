@@ -1,0 +1,5 @@
+{
+  "로고스홀": { "building": "밀알관", "floor": -1, "aliases": ["logos hall", "logos", "로고스"] },
+  "종합실습실": { "building": "모리아관", "floor": 3, "aliases": ["종합 실습실", "종실"] },
+  "ai융합실습실": { "building": "갈멜", "floor": 2, "aliases": ["ai 융합 실습실", "ai융합", "ai lab", "ai실습실"] }
+}
