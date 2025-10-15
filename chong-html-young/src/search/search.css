@@ -1,0 +1,80 @@
+.searchbar-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 420px;
+  max-width: 90vw;
+}
+
+.searchbar-input {
+  flex: 1;
+  height: 40px;
+  border-radius: 12px;
+  border: none;
+  padding: 0 44px 0 16px;
+  outline: none;
+  background: #fff;
+  font-size: 16px;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.08) inset;
+}
+
+.searchbar-btn {
+  position: absolute;
+  right: 8px;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+}
+
+.searchbar-panel {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 420px;
+  max-width: 92vw;
+  max-height: 60vh;
+  overflow: auto;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 12px 30px rgba(21,27,38,0.22);
+  padding: 8px 0; /* ← 오타 수정 */
+  z-index: 1000;
+}
+
+.searchbar-empty {
+  padding: 10px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.searchbar-item {
+  display: grid;
+  grid-template-columns: 18px 1fr auto;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  cursor: pointer;
+}
+.searchbar-item:hover {
+  background: #f5f7fb;
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.dot-ok { background: #2bb673; }
+.dot-warn { background: #f5a623; }
+.dot-danger { background: #e74c3c; }
+.dot-muted { background: #c7cbd1; }
+
+.item-main { display: grid; gap: 4px; }
+.item-title { font-weight: 700; color: #253044; }
+.item-meta { font-size: 13px; color: #6b7280; }
+.item-time { font-size: 13px; color: #48556a; font-weight: 600; }
