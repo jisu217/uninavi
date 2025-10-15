@@ -179,9 +179,9 @@
 
 | 이름 | 역할 | 담당 업무 | GitHub |
 |------|------|-----------|--------|
-| 김종환 | Project Manager | 프로젝트 기획, 발표, 문서화 | [@github-id](https://github.com/username) |
-| 팀원2 | Frontend Developer | React 개발, UI/UX 디자인, 평면도 제작 | [@github-id](https://github.com/username) |
-| 팀원3 | Backend Developer | Spring Boot API 개발, 챗봇 구현 | [@github-id](https://github.com/username) |
-| 팀원4 | Full Stack Developer | 데이터베이스 설계, 인프라 구축, 크롤링 | [@github-id](https://github.com/username) |
+| 강지수 ||||
+| 김종환 ||||
+| 박지민 ||||
+| 정아영 ||||
 
 ---
