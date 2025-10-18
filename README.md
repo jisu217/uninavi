@@ -1,7 +1,7 @@
 # UniNavi_NFC/QR 기반 실시간 캠퍼스 정보 안내 웹 서비스
 
 <div align="center">
-  <strong>캠퍼스 정보를 쉽고 빠르게 탐색</strong>
+  <strong>한 번의 태그로 캠퍼스를 탐색하다 — UniNavi</strong>
 </div>
 
 <div align="center">
