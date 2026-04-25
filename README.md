@@ -2,6 +2,8 @@
 
 ---
 
+1. Tech Stack
+
 | Category | Stack |
 | :--- | :--- |
 | Backend | ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white) ![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=spring-security&logoColor=white) |
@@ -11,6 +13,8 @@
 | Web Crawling | JSoup (실시간 학교 홈페이지 크롤링) |
 
 ---
+
+2. Team Members
 
 | Role | Name | 
 |------|------|
